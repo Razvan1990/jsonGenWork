@@ -1,0 +1,10 @@
+1. Complete the json.template.txt following the below pattern:
+	[description=Ana are mere;parameter_used=Param1;id_requirements=[Req1,Req2,Req3,Req4]]
+
+-> a test must contain in this file the description, used parameters and requirements tested
+-> they must be split using ;
+-> do not use quotes nowhere
+->the requirements, must be put in brackets, not matter if it is just one
+2. After completing the json.template.txt correctly, save and go in Python
+3. CLick the run button where you will be asked the model name, if MCDC is applicable and if there exists an argumentation file
+4. Finally, the file will be generated in the the folder "generation" of the project.

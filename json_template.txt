@@ -1,0 +1,3 @@
+[description=Ana are mere;parameter_used=Param1;id_requirements=[Req1,Req2,Req3,Req4]]
+[description=Ana are banane;parameter_used=Param1;id_requirements=[Req5]]
+[description =Ana vrea fruncte;parameter_used=Param2;id_requirements=[Req3,Req6,Req7]]

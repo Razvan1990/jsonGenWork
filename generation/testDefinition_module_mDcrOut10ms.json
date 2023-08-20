@@ -1,0 +1,51 @@
+{
+    "CoverageSetting": "MCDC",
+    "CoverageThresholds": [
+        {
+            "CyclomaticComplexity": 99999,
+            "Decision": 1.0,
+            "Execution": 1.0,
+            "MCDC": 1.0
+        }
+    ],
+	"Name":"testDefinition_module_m_DcrOut10ms" ,
+	"ExcludeArgumentation" : "argumentation_m_DcrOut10ms.json",
+	"TestCases":[
+			{
+				"Description":"Ana are mere",
+				"Model": "", 
+				"Name": "m_DcrOut10ms_TC01", 
+				"ParameterFile": "Params\\Param1 .m", 
+				"PreparationScriptFile": "Vec\\generate_mess_tc_01.m", 
+				"ReferenceVectorFile": "", 
+				"RequirementsID":["Req1"," Req2"," Req3"," Req4"],
+				"Scalings": "",
+				"TestVectorFile": "",
+				"ToleranceFile": "" 
+			},
+			{
+				"Description":"Ana are banane",
+				"Model": "", 
+				"Name": "m_DcrOut10ms_TC02", 
+				"ParameterFile": "Params\\Param1 .m", 
+				"PreparationScriptFile": "Vec\\generate_mess_tc_02.m", 
+				"ReferenceVectorFile": "", 
+				"RequirementsID":["Req5"],
+				"Scalings": "",
+				"TestVectorFile": "",
+				"ToleranceFile": "" 
+			},
+			{
+				"Description":"Ana vrea fruncte",
+				"Model": "", 
+				"Name": "m_DcrOut10ms_TC03", 
+				"ParameterFile": "Params\\Param2 .m", 
+				"PreparationScriptFile": "Vec\\generate_mess_tc_03.m", 
+				"ReferenceVectorFile": "", 
+				"RequirementsID":["Req3","Req6","Req7"],
+				"Scalings": "",
+				"TestVectorFile": "",
+				"ToleranceFile": "" 
+			}
+	]
+}
